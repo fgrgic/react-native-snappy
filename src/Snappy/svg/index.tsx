@@ -28,3 +28,5 @@ const icons: Record<string, IconConfig> = {
     ),
   },
 };
+
+export default icons;
