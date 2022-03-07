@@ -1,3 +1,12 @@
+import React from 'react';
+
+export interface IconConfig {
+  svg: React.ReactNode;
+  keywords?: string[];
+  description?: string;
+  alternatives?: string[];
+}
+
 export type SnappyIconNames =
   | 'arrow-big-down'
   | 'arrow-big-left'
@@ -359,4 +368,4 @@ export type SnappyIconNames =
   | 'sun'
   | 'thunderstorm'
   | 'wind'
-  | 'snap'
+  | 'snap';

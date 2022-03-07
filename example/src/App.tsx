@@ -17,7 +17,7 @@ const App = () => {
         width: '100%',
       }}
     >
-      <Snappy />
+      <Snappy name='snap' />
     </View>
   )
 }
