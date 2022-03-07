@@ -13,10 +13,22 @@ const App = () => {
         width: '100%',
       }}
     >
+      <Snappy name='chevron-right' />
+      <Snappy name='pie-chart' />
+      <Snappy name='calendar-event' />
       <Snappy name='chevrons-right' />
-      <Snappy color='#0a0faa' strokeWidth={1} name='snap' />
-      <Snappy color='#7f7faa' size={30} strokeWidth={0.5} name='snap' />
-      <Snappy color='#f4a' size={100} strokeWidth={2.5} name='snap' />
+      <Snappy name='bell-notification' />
+      <Snappy name='file' />
+      <Snappy name='document' />
+      <Snappy name='folder' />
+      <Snappy name='angry' />
+      <Snappy name='cloud-upload' />
+      <Snappy name='x' />
+      <Snappy name='cookie' />
+      <Snappy name='copy' />
+      <Snappy name='airpods-case' />
+      <Snappy name='toggle-right' />
+      <Snappy name='headphones' />
     </View>
   )
 }
