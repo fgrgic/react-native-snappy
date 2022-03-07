@@ -1,26 +1,8 @@
-import * as React from 'react'
-import { Button, NativeModules, StyleSheet, Text, View } from 'react-native'
+import Snappy from './Snappy'
+import { SnappyIconNames } from './Snappy/types'
 
-export const addOne = (input: number) => input + 1
+export { SnappyIconNames }
 
-export const Counter = () => {
-  const [count, setCount] = React.useState(0)
+export default Snappy
 
-  return (
-    <View style={styles.container}>
-      <Text>You pressed {count} times</Text>
-      <Button onPress={() => setCount(addOne(count))} title='Press Me' />
-    </View>
-  )
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 200,
-  },
-})
-
-export default NativeModules.RNSnappyModule
+// export default NativeModules.RNSnappyModule

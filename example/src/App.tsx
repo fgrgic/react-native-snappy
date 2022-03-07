@@ -1,12 +1,25 @@
 import React, { useEffect } from 'react'
-import RNSnappyModule, { Counter } from 'react-native-snappy'
+import { View } from 'react-native'
+import Snappy from 'react-native-snappy'
 
 const App = () => {
-  useEffect(() => {
-    console.log(RNSnappyModule)
-  })
+  // useEffect(() => {
+  //   console.log(RNSnappyModule)
+  // })
 
-  return <Counter />
+  return (
+    <View
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100%',
+        width: '100%',
+      }}
+    >
+      <Snappy />
+    </View>
+  )
 }
 
 export default App
