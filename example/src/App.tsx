@@ -13,7 +13,7 @@ const App = () => {
         width: '100%',
       }}
     >
-      <Snappy name='snap' />
+      <Snappy name='chevrons-right' />
       <Snappy color='#0a0faa' strokeWidth={1} name='snap' />
       <Snappy color='#7f7faa' size={30} strokeWidth={0.5} name='snap' />
       <Snappy color='#f4a' size={100} strokeWidth={2.5} name='snap' />

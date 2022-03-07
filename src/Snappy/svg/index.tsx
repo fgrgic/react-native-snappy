@@ -26,7 +26,824 @@ const icons: Record<string, IconConfig> = {
         />
       </Svg>
     ),
+    keywords: ['snappy', 'finger', 'hand', 'thanos', 'logo'],
+    description: 'Fingers snapping',
   },
+  'arrow-big-down': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 1L12 23'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 23L18 17'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 23L6 17'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-big-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M23 12L1 12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M1 12L7 6'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M1 12L7 18'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-big-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M1 12L23 12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M23 12L17 6'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M23 12L17 18'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-big-up': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 23L12 1'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 1L18 7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 1L6 7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-down-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M6 18L18 6'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 18H13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 18V11'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-down-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M18 18L6 6'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 18H11'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 18V11'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-down': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 4L12 20'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 20L17 15'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 20L7 15'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M20 12H4'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M4 12L9 7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M4 12L9 17'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M4 12H20'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M20 12L15 7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M20 12L15 17'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-up-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M6 6L18 18'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 6H13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 6V13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-up-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M18 6L6 18'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 6H11'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 6V13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrow-up': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 20L12 4'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 4L17 9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 4L7 9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrows-down-up': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M7 6L7 21'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M7 21L10.5 17.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M7 21L3.5 17.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17 18L17 3'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17 3L20.5 6.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17 3L13.5 6.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrows-left-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M6 17H21'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M21 17L17.5 13.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M21 17L17.5 20.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 7H3'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M3 7L6.5 3.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M3 7L6.5 10.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrows-right-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M18 17H3'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M3 17L6.5 13.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M3 17L6.5 20.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 7H21'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M21 7L17.5 3.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M21 7L17.5 10.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'arrows-up-down': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M17 6L17 21'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17 21L13.5 17.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17 21L20.5 17.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M7 18L7 3'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M7 3L3.5 6.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M7 3L10.5 6.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-down': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 16L20 8'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 16L4 8'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M8 12L16 4'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M8 12L16 20'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M16 12L8 4'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M16 12L8 20'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-small-down': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 14.5L16.5 10'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 14.5L7.5 10'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-small-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M9.5 12L14 7.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M9.5 12L14 16.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-small-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M14 12L9.5 7.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M14 12L9.5 16.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-small-up': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 10L16.5 14.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 10L7.5 14.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevron-up': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 8L20 16'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 8L4 16'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevrons-down': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 11.5L16.5 7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 17.5L16.5 13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 11.5L7.5 7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 17.5L7.5 13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevrons-left': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12.5 12L17 7.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6.5 12L11 7.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12.5 12L17 16.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6.5 12L11 16.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevrons-right': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M11.5 12L7 7.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17.5 12L13 7.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M11.5 12L7 16.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17.5 12L13 16.5'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  'chevrons-up': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 12.5L16.5 17'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 6.5L16.5 11'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 12.5L7.5 17'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 6.5L7.5 11'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+  },
+  // 'name': {svg: (
+
+  // )},
 };
 
 export default icons;

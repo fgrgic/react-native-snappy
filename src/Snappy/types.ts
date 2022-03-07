@@ -4,7 +4,6 @@ export interface IconConfig {
   svg: React.ReactNode;
   keywords?: string[];
   description?: string;
-  alternatives?: string[];
 }
 
 export type SnappyIconNames =

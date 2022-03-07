@@ -12,15 +12,6 @@ import icons from './svg';
 import Svg, { SvgProps } from 'react-native-svg';
 import getSvgPathProps from './utils/getSvgPathStrokes';
 
-/* maybe without this */
-function clearAndUpper(text: string) {
-  return text.replace(/-/, '').toUpperCase();
-}
-
-function toCamelCase(text: string) {
-  return text.replace(/-\w/g, clearAndUpper);
-}
-
 interface SvgIconProps extends SvgProps {
   name: string;
   svgs: typeof icons;
@@ -42,7 +33,7 @@ const SvgIcon = ({
   fillRule,
   style,
 }: SvgIconProps) => {
-  let icon = svgs[name && toCamelCase(name)] || {};
+  let icon = svgs[name] ?? {};
 
   const stylesheet = React.useMemo(
     () => StyleSheet.flatten(style) || {},
