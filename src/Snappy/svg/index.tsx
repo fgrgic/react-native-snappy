@@ -3832,30 +3832,23 @@ const icons = {
   'alert-octogon': {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
-        <G clip-path='url(#clip0_647_1974)'>
-          <Path
-            d='M12 14V7'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-          />
-          <Path
-            d='M7.88912 4.07541C8.26419 3.70033 8.7729 3.48962 9.30333 3.48962L14.6967 3.48962C15.2271 3.48962 15.7359 3.70033 16.1109 4.07541L19.9246 7.88911C20.2997 8.26418 20.5104 8.77289 20.5104 9.30332L20.5104 14.6967C20.5104 15.2271 20.2997 15.7358 19.9246 16.1109L16.1109 19.9246C15.7359 20.2997 15.2271 20.5104 14.6967 20.5104L9.30333 20.5104C8.7729 20.5104 8.26419 20.2997 7.88912 19.9246L4.07541 16.1109C3.70034 15.7358 3.48963 15.2271 3.48963 14.6967L3.48963 9.30332C3.48963 8.77289 3.70034 8.26418 4.07541 7.88911L7.88912 4.07541Z'
-            stroke='black'
-            stroke-width='2'
-          />
-          <Path
-            d='M12 17H12.01'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-          />
-        </G>
-        <Defs>
-          <ClipPath id='clip0_647_1974'>
-            <Rect width='24' height='24' fill='white' />
-          </ClipPath>
-        </Defs>
+        <Path
+          d='M12 14V7'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+        />
+        <Path
+          d='M7.88912 4.07541C8.26419 3.70033 8.7729 3.48962 9.30333 3.48962L14.6967 3.48962C15.2271 3.48962 15.7359 3.70033 16.1109 4.07541L19.9246 7.88911C20.2997 8.26418 20.5104 8.77289 20.5104 9.30332L20.5104 14.6967C20.5104 15.2271 20.2997 15.7358 19.9246 16.1109L16.1109 19.9246C15.7359 20.2997 15.2271 20.5104 14.6967 20.5104L9.30333 20.5104C8.7729 20.5104 8.26419 20.2997 7.88912 19.9246L4.07541 16.1109C3.70034 15.7358 3.48963 15.2271 3.48963 14.6967L3.48963 9.30332C3.48963 8.77289 3.70034 8.26418 4.07541 7.88911L7.88912 4.07541Z'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M12 17H12.01'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+        />
       </Svg>
     ),
   },
@@ -8806,47 +8799,40 @@ const icons = {
   football: {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
-        <G clip-path='url(#clip0_647_1993)'>
-          <Path
-            d='M7.05026 16.9497C13.2728 23.1723 19.7782 19.7782 19.7782 19.7782C19.7782 19.7782 23.1723 13.2728 16.9498 7.05024C10.7272 0.827696 4.22183 4.22181 4.22183 4.22181C4.22183 4.22181 0.827715 10.7272 7.05026 16.9497Z'
-            stroke='black'
-            stroke-width='2'
-            stroke-linejoin='round'
-          />
-          <Path
-            d='M12 12L13.4142 10.5858'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-          <Path
-            d='M14.1213 14.1213L15.5356 12.7071'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-          <Path
-            d='M9.87869 9.87866L11.2929 8.46445'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-          <Path
-            d='M19.7782 19.7782C19.7782 19.7782 18.0104 16.5962 12.7071 11.2929C7.4038 5.98959 4.22182 4.22182 4.22182 4.22182'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-        </G>
-        <Defs>
-          <ClipPath id='clip0_647_1993'>
-            <Rect width='24' height='24' fill='white' />
-          </ClipPath>
-        </Defs>
+        <Path
+          d='M7.05026 16.9497C13.2728 23.1723 19.7782 19.7782 19.7782 19.7782C19.7782 19.7782 23.1723 13.2728 16.9498 7.05024C10.7272 0.827696 4.22183 4.22181 4.22183 4.22181C4.22183 4.22181 0.827715 10.7272 7.05026 16.9497Z'
+          stroke='black'
+          stroke-width='2'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 12L13.4142 10.5858'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M14.1213 14.1213L15.5356 12.7071'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M9.87869 9.87866L11.2929 8.46445'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M19.7782 19.7782C19.7782 19.7782 18.0104 16.5962 12.7071 11.2929C7.4038 5.98959 4.22182 4.22182 4.22182 4.22182'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
       </Svg>
     ),
   },
@@ -9053,34 +9039,27 @@ const icons = {
   sneaker: {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
-        <G clip-path='url(#clip0_647_1991)'>
-          <Path
-            d='M5.01936 5.75713L6 3.5C6 3.5 7.04648 5.01535 7.883 5.75713C8.71951 6.49892 10.522 7.49952 11.1343 7.14596C11.8761 6.30945 14.1957 4.25668 14.6786 4.38609C15.1616 4.5155 13.9715 7.12058 14.6786 8.34533C15.3857 9.57007 18.3436 13.9861 19.1801 14.7279C20.0166 15.4697 20.4996 15.5991 21.3361 16.3408C22.1726 17.0826 22.0432 17.5656 22.0432 17.5656C22.0432 17.5656 21.7844 18.5315 20.5596 19.2386C19.3349 19.9457 18.3689 19.6869 15.4712 18.9104C12.5734 18.134 11.418 14.7186 8.52022 13.9421L4.65652 12.9068C4.17355 12.7774 3.20764 12.5186 2.50053 11.2939C1.79343 10.0691 3.27698 8.39609 3.27698 8.39609L5.01936 5.75713Z'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-          <Path
-            d='M15 8.99999L14 10'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-          <Path
-            d='M17 12L16 13'
-            stroke='black'
-            stroke-width='2'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-          />
-        </G>
-        <Defs>
-          <ClipPath id='clip0_647_1991'>
-            <Rect width='24' height='24' fill='white' />
-          </ClipPath>
-        </Defs>
+        <Path
+          d='M5.01936 5.75713L6 3.5C6 3.5 7.04648 5.01535 7.883 5.75713C8.71951 6.49892 10.522 7.49952 11.1343 7.14596C11.8761 6.30945 14.1957 4.25668 14.6786 4.38609C15.1616 4.5155 13.9715 7.12058 14.6786 8.34533C15.3857 9.57007 18.3436 13.9861 19.1801 14.7279C20.0166 15.4697 20.4996 15.5991 21.3361 16.3408C22.1726 17.0826 22.0432 17.5656 22.0432 17.5656C22.0432 17.5656 21.7844 18.5315 20.5596 19.2386C19.3349 19.9457 18.3689 19.6869 15.4712 18.9104C12.5734 18.134 11.418 14.7186 8.52022 13.9421L4.65652 12.9068C4.17355 12.7774 3.20764 12.5186 2.50053 11.2939C1.79343 10.0691 3.27698 8.39609 3.27698 8.39609L5.01936 5.75713Z'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M15 8.99999L14 10'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M17 12L16 13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
       </Svg>
     ),
   },
