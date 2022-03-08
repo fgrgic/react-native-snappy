@@ -8729,18 +8729,17 @@ const icons = {
           stroke-linejoin='round'
         />
         <Path
-          d='M15 4H15.01'
-          stroke='black'
-          stroke-width='4'
-          stroke-linecap='round'
-          stroke-linejoin='round'
-        />
-        <Path
           d='M11 8.5L14 11H16'
           stroke='black'
           stroke-width='2'
           stroke-linecap='round'
           stroke-linejoin='round'
+        />
+        <Circle
+          r='1'
+          transform='matrix(-1 0 0 1 14.5 4)'
+          stroke='black'
+          stroke-width='2'
         />
       </Svg>
     ),
@@ -8764,7 +8763,12 @@ const icons = {
           stroke-linecap='round'
           stroke-linejoin='round'
         />
-        <Circle cx='16' cy='5' r='2' fill='black' />
+        <Circle
+          r='1'
+          transform='matrix(-1 0 0 1 16 4.5)'
+          stroke='black'
+          stroke-width='2'
+        />
       </Svg>
     ),
   },
@@ -8981,7 +8985,12 @@ const icons = {
           stroke-linecap='round'
           stroke-linejoin='round'
         />
-        <Circle cx='15' cy='4' r='2' fill='black' />
+        <Circle
+          r='1'
+          transform='matrix(-1 0 0 1 15 4)'
+          stroke='black'
+          stroke-width='2'
+        />
       </Svg>
     ),
   },
@@ -9030,7 +9039,12 @@ const icons = {
           stroke-linecap='round'
           stroke-linejoin='round'
         />
-        <Circle cx='13' cy='4' r='2' fill='black' />
+        <Circle
+          r='1'
+          transform='matrix(-1 0 0 1 12 4)'
+          stroke='black'
+          stroke-width='2'
+        />
       </Svg>
     ),
   },
@@ -9114,13 +9128,6 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M11 20H11.01'
-          stroke='black'
-          stroke-width='3'
-          stroke-linecap='round'
-          stroke-linejoin='round'
-        />
-        <Path
           d='M11.5 8L10.5 13L14 15.5L16 20'
           stroke='black'
           stroke-width='2'
@@ -9148,7 +9155,18 @@ const icons = {
           stroke-linecap='round'
           stroke-linejoin='round'
         />
-        <Circle cx='13' cy='4' r='2' fill='black' />
+        <Circle
+          r='1'
+          transform='matrix(-1 0 0 1 12 4)'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Circle
+          r='0.5'
+          transform='matrix(-1 0 0 1 10.5 19.5)'
+          stroke='black'
+          stroke-width='2'
+        />
       </Svg>
     ),
   },
@@ -9219,7 +9237,12 @@ const icons = {
           stroke-linecap='round'
           stroke-linejoin='round'
         />
-        <Circle cx='16' cy='12' r='2' fill='black' />
+        <Circle
+          r='1'
+          transform='matrix(-1 0 0 1 16 12)'
+          stroke='black'
+          stroke-width='2'
+        />
       </Svg>
     ),
   },

@@ -17,8 +17,8 @@ const App = () => {
         <Snappy key={name} name={name} />
       ))} */}
       <Snappy name='bell-notification' />
-      <Snappy name='file' />
       <Snappy name='document' />
+      <Snappy name='file' />
       <Snappy name='folder' />
       <Snappy name='angry' />
       <Snappy name='cloud-upload' />
