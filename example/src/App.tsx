@@ -13,10 +13,9 @@ const App = () => {
         width: '100%',
       }}
     >
-      <Snappy name='chevron-right' />
-      <Snappy name='pie-chart' />
-      <Snappy name='calendar-event' />
-      <Snappy name='chevrons-right' />
+      <Snappy name='arrow-down' size={100} strokeWidth={5} />
+      <Snappy name='arrow-up' size={100} strokeWidth={5} />
+      <Snappy name='chevrons-right' size={100} strokeWidth={5} />
       <Snappy name='bell-notification' />
       <Snappy name='file' />
       <Snappy name='document' />

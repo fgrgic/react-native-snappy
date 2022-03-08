@@ -216,14 +216,7 @@ const icons: Record<string, IconConfig> = {
           stroke-linejoin='round'
         />
         <Path
-          d='M12 20L17 15'
-          stroke='black'
-          stroke-width='2'
-          stroke-linecap='round'
-          stroke-linejoin='round'
-        />
-        <Path
-          d='M12 20L7 15'
+          d='M7 15L12 20L17 15'
           stroke='black'
           stroke-width='2'
           stroke-linecap='round'

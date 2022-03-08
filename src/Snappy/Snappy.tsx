@@ -25,7 +25,6 @@ const SvgIcon = ({
   name,
   svgs,
   color = '#000',
-  ignoreColorScheme,
   height = 24,
   width = 24,
   strokeWidth = 2,
@@ -34,11 +33,6 @@ const SvgIcon = ({
   style,
 }: SvgIconProps) => {
   let icon = svgs[name] ?? {};
-
-  const stylesheet = React.useMemo(
-    () => StyleSheet.flatten(style) || {},
-    [style]
-  );
 
   if (!icon.svg) {
     icon = svgs.snap;
@@ -62,6 +56,8 @@ const SvgIcon = ({
       viewBox={viewBox}
       style={style}
       fill='none'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     >
       {styledSvgPath}
     </Svg>
@@ -92,8 +88,8 @@ const Snappy = ({
     ...rest,
   };
 
-  if (strokeWidth < 0.5) strokeWidth = 0.5;
-  if (strokeWidth > 2.5) strokeWidth = 2.5;
+  // if (strokeWidth < 0.5) strokeWidth = 0.5;
+  // if (strokeWidth > 2.5) strokeWidth = 2.5;
 
   return (
     <View style={[{ height: size, width: size }, styles.iconContainer]}>
