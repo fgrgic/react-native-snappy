@@ -1,35 +1,36 @@
 import {
   View,
-  Text,
   StyleProp,
   TextStyle,
   StyleSheet,
   ViewStyle,
 } from 'react-native';
 import React from 'react';
-// import { SnappyIconNames } from './types';
 import icons from './svg';
 import Svg, { SvgProps } from 'react-native-svg';
-import getSvgPathProps from './utils/getSvgPathStrokes';
+import getProps from './utils/pathProps';
 import { SnappyIconNames } from './types';
+
+const DEFAULT_ICON_SIZE = 24;
+const DEFAULT_STROKE_WIDTH = 2;
+const DEFAULT_ICON_COLOR = '#000';
 
 interface SvgIconProps extends SvgProps {
   name: SnappyIconNames;
   svgs: typeof icons;
   color?: string;
-  ignoreColorScheme?: boolean;
-  style?: SvgProps['style'] & StyleProp<Pick<TextStyle, 'color'>>;
   viewBox?: string;
+  style?: SvgProps['style'] & StyleProp<Pick<TextStyle, 'color'>>;
 }
 
 const SvgIcon = ({
   name,
   svgs,
-  color = '#000',
-  height = 24,
-  width = 24,
-  strokeWidth = 2,
-  viewBox = '0 0 24 24',
+  color = DEFAULT_ICON_COLOR,
+  height = DEFAULT_ICON_SIZE,
+  width = DEFAULT_ICON_SIZE,
+  strokeWidth = DEFAULT_STROKE_WIDTH,
+  viewBox = `0 0 ${DEFAULT_ICON_SIZE} ${DEFAULT_ICON_SIZE}`,
   fillRule,
   style,
 }: SvgIconProps) => {
@@ -44,7 +45,7 @@ const SvgIcon = ({
       return React.Children.map(child.props.children, (path) => {
         return React.cloneElement(path, {
           fillRule,
-          ...getSvgPathProps(path, color, strokeWidth),
+          ...getProps(path, color, strokeWidth),
         });
       });
     }
@@ -65,7 +66,7 @@ const SvgIcon = ({
   );
 };
 
-// const MemoizedSvgIcon = React.memo(SvgIcon);
+const MemoizedSvgIcon = React.memo(SvgIcon);
 
 export interface SnappyProps {
   name: SnappyIconNames;
@@ -78,9 +79,9 @@ export interface SnappyProps {
 }
 
 const Snappy = ({
-  size = 24,
-  strokeWidth = 2,
-  color = '#000',
+  size = DEFAULT_ICON_SIZE,
+  strokeWidth = DEFAULT_STROKE_WIDTH,
+  color = DEFAULT_ICON_COLOR,
   ...rest
 }: SnappyProps) => {
   const svgIconProps = {
@@ -89,12 +90,9 @@ const Snappy = ({
     ...rest,
   };
 
-  // if (strokeWidth < 0.5) strokeWidth = 0.5;
-  // if (strokeWidth > 2.5) strokeWidth = 2.5;
-
   return (
     <View style={[{ height: size, width: size }, styles.iconContainer]}>
-      <SvgIcon
+      <MemoizedSvgIcon
         {...svgIconProps}
         strokeWidth={strokeWidth}
         color={color}

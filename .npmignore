@@ -67,3 +67,5 @@ lib/
 
 # Example not needed in the package
 example/
+assets/cover/
+assets/logo/
