@@ -1,12 +1,18 @@
 {
   "name": "react-native-snappy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native library for using Snappy Icons",
   "homepage": "https://github.com/fgrgic/react-native-snappy#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Fran Grgic <fran@grgi.ch>",
   "license": "MIT",
+  "keywords": [
+    "icon pack",
+    "icons",
+    "react native icons",
+    "vector icons"
+  ],
   "files": [
     "android",
     "ios",
