@@ -1,6 +1,6 @@
 {
   "name": "react-native-snappy",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React Native library for using Snappy Icons",
   "homepage": "https://github.com/fgrgic/react-native-snappy#readme",
   "main": "lib/index.js",
