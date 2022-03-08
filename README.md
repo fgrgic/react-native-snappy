@@ -1,4 +1,4 @@
-![Snappy Icons](assets/cover/cover.png)
+![Snappy Icons](https://github.com/fgrgic/react-native-snappy/blob/main/assets/cover/cover.png?raw=true)
 
 # Snappy Icons
 
