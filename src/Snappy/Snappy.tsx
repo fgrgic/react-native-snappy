@@ -11,7 +11,7 @@ import React from 'react';
 import icons from './svg';
 import Svg, { SvgProps } from 'react-native-svg';
 import getSvgPathProps from './utils/getSvgPathStrokes';
-import { IconConfig, SnappyIconNames } from './types';
+import { SnappyIconNames } from './types';
 
 interface SvgIconProps extends SvgProps {
   name: SnappyIconNames;
@@ -36,7 +36,7 @@ const SvgIcon = ({
   let icon = svgs[name] ?? {};
 
   if (!icon.svg) {
-    icon = svgs.snap;
+    icon = svgs['question-circle'];
   }
 
   const styledSvgPath = React.Children.map(icon.svg, (child) => {
@@ -65,7 +65,7 @@ const SvgIcon = ({
   );
 };
 
-const MemoizedSvgIcon = React.memo(SvgIcon);
+// const MemoizedSvgIcon = React.memo(SvgIcon);
 
 export interface SnappyProps {
   name: SnappyIconNames;
@@ -94,7 +94,7 @@ const Snappy = ({
 
   return (
     <View style={[{ height: size, width: size }, styles.iconContainer]}>
-      <MemoizedSvgIcon
+      <SvgIcon
         {...svgIconProps}
         strokeWidth={strokeWidth}
         color={color}

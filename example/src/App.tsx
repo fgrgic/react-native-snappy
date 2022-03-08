@@ -13,12 +13,9 @@ const App = () => {
         width: '100%',
       }}
     >
-      {snappyNameArray.map((name) => (
+      {/* {snappyNameArray.map((name) => (
         <Snappy key={name} name={name} />
-      ))}
-      <Snappy name='arrow-down' size={100} strokeWidth={5} />
-      <Snappy name='arrow-up' size={100} strokeWidth={5} />
-      <Snappy name='chevrons-right' size={100} strokeWidth={5} />
+      ))} */}
       <Snappy name='bell-notification' />
       <Snappy name='file' />
       <Snappy name='document' />
@@ -31,7 +28,8 @@ const App = () => {
       <Snappy name='airpods-case' />
       <Snappy name='toggle-right' />
       <Snappy name='soccer' color='#ff6666' />
-      <Snappy name='soccer' color='#ff6666' />
+      <Snappy name='arrow-down' size={100} strokeWidth={5} />
+      <Snappy name='arrow-up' size={100} strokeWidth={5} />
     </View>
   )
 }
