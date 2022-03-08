@@ -28,7 +28,8 @@ const App = () => {
       <Snappy name='copy' />
       <Snappy name='airpods-case' />
       <Snappy name='toggle-right' />
-      <Snappy name='headphones' />
+      <Snappy name='soccer' color='#ff6666' />
+      <Snappy name='soccer' color='#ff6666' />
     </View>
   )
 }
