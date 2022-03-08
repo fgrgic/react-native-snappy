@@ -7,13 +7,14 @@ import {
   ViewStyle,
 } from 'react-native';
 import React from 'react';
-import { SnappyIconNames } from './types';
+// import { SnappyIconNames } from './types';
 import icons from './svg';
 import Svg, { SvgProps } from 'react-native-svg';
 import getSvgPathProps from './utils/getSvgPathStrokes';
+import { IconConfig, SnappyIconNames } from './types';
 
 interface SvgIconProps extends SvgProps {
-  name: string;
+  name: SnappyIconNames;
   svgs: typeof icons;
   color?: string;
   ignoreColorScheme?: boolean;

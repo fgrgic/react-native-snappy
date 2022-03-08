@@ -10,7 +10,7 @@ import Svg, {
 } from 'react-native-svg';
 import { IconConfig } from '../types';
 
-const icons: Record<string, IconConfig> = {
+const icons = {
   snap: {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
@@ -9904,4 +9904,7 @@ const icons: Record<string, IconConfig> = {
   },
 };
 
-export default icons;
+const exportIcons: Record<string, IconConfig> = icons;
+
+export { icons as tightlyTyped };
+export default exportIcons;

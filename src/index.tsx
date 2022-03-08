@@ -1,10 +1,7 @@
 import Snappy from './Snappy';
-import { SnappyIconNames } from './Snappy/types';
-import allIcons from './Snappy/svg/index';
+import { snappyNameArray, SnappyIconNames } from './Snappy/types';
 
-const snappyNameArray = Object.keys(allIcons);
-
-export { SnappyIconNames, snappyNameArray };
+export { snappyNameArray, SnappyIconNames };
 
 export default Snappy;
 

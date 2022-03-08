@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { View } from 'react-native'
-import Snappy from 'react-native-snappy'
+import Snappy, { snappyNameArray } from 'react-native-snappy'
 
 const App = () => {
   return (
@@ -13,6 +13,9 @@ const App = () => {
         width: '100%',
       }}
     >
+      {snappyNameArray.map((name) => (
+        <Snappy key={name} name={name} />
+      ))}
       <Snappy name='arrow-down' size={100} strokeWidth={5} />
       <Snappy name='arrow-up' size={100} strokeWidth={5} />
       <Snappy name='chevrons-right' size={100} strokeWidth={5} />
