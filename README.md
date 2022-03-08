@@ -16,7 +16,7 @@ yarn add react-native-svg
 or
 
 ```zsh
-npm i react native-svg
+npm i react-native-svg
 ```
 
 2. Add this package:
