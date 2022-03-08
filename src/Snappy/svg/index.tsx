@@ -898,6 +898,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['institution', 'building', 'money'],
   },
   home: {
     svg: (
@@ -917,6 +918,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['house', 'building', 'shack'],
   },
   'calendar-1': {
     svg: (
@@ -962,6 +964,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['event', 'schedule'],
   },
   'calendar-9': {
     svg: (
@@ -1008,6 +1011,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['event', 'schedule'],
   },
   'calendar-event': {
     svg: (
@@ -1050,6 +1054,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['event', 'schedule'],
   },
   'calendar-minus': {
     svg: (
@@ -1089,6 +1094,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['event', 'schedule', 'remove'],
   },
   'calendar-plus': {
     svg: (
@@ -1134,6 +1140,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['event', 'schedule', 'add'],
   },
   calendar: {
     svg: (
@@ -1167,6 +1174,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['event', 'schedule'],
   },
   'bar-chart-2': {
     svg: (
@@ -1194,6 +1202,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks'],
   },
   'bar-chart': {
     svg: (
@@ -1221,6 +1230,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks'],
   },
   'line-chart-down-2': {
     svg: (
@@ -1241,6 +1251,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks', 'decrease', 'plummet'],
   },
   'line-chart-down': {
     svg: (
@@ -1254,6 +1265,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks', 'decrease', 'plummet'],
   },
   'line-chart-up-2': {
     svg: (
@@ -1274,6 +1286,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks', 'increase'],
   },
   'line-chart-up': {
     svg: (
@@ -1287,6 +1300,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks', 'increase'],
   },
   'pie-chart': {
     svg: (
@@ -1304,6 +1318,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'graph', 'stocks'],
   },
   archive: {
     svg: (
@@ -1331,6 +1346,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['save', 'storage', 'mail', 'files'],
   },
   'at-sign': {
     svg: (
@@ -1351,6 +1367,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'monkey'],
   },
   'bell-mute': {
     svg: (
@@ -1383,6 +1400,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['notification', 'ring', 'sound', 'silent'],
   },
   'bell-notification': {
     svg: (
@@ -1410,6 +1428,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['notification', 'ring', 'sound'],
   },
   'bell-ring': {
     svg: (
@@ -1450,6 +1469,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['notification', 'ring', 'sound', 'loud'],
   },
   bell: {
     svg: (
@@ -1484,6 +1504,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['notification', 'ring', 'sound'],
   },
   bluetooth: {
     svg: (
@@ -1496,6 +1517,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['connection', 'establish', 'accessory'],
   },
   'call-forward': {
     svg: (
@@ -1527,6 +1549,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['phone'],
   },
   'call-hangup': {
     svg: (
@@ -1540,6 +1563,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['phone', 'end', 'stop'],
   },
   'call-incoming': {
     svg: (
@@ -1571,6 +1595,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['phone', 'ringing'],
   },
   'call-missed': {
     svg: (
@@ -1608,6 +1633,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['phone'],
   },
   'call-outgoing': {
     svg: (
@@ -1635,6 +1661,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['phone'],
   },
   'chat-2': {
     svg: (
@@ -1661,6 +1688,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['message', 'bubble', 'typing', 'talking', 'speaking'],
   },
   'chat-active': {
     svg: (
@@ -1694,6 +1722,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['message', 'bubble', 'typing', 'talking', 'speaking'],
   },
   chat: {
     svg: (
@@ -1706,6 +1735,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['message', 'bubble', 'typing', 'talking', 'speaking'],
   },
   forward: {
     svg: (
@@ -1733,6 +1763,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'redo'],
   },
   'inbox-2': {
     svg: (
@@ -1750,6 +1781,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'communication', 'box'],
   },
   inbox: {
     svg: (
@@ -1788,6 +1820,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'communication', 'box'],
   },
   inboxes: {
     svg: (
@@ -1810,6 +1843,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'communication', 'box'],
   },
   'mail-open': {
     svg: (
@@ -1835,6 +1869,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'communication', 'box'],
   },
   mail: {
     svg: (
@@ -1857,6 +1892,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'communication', 'box'],
   },
   'microphone-off': {
     svg: (
@@ -1889,6 +1925,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mute', 'talk', 'call', 'audio'],
   },
   microphone: {
     svg: (
@@ -1917,6 +1954,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['talk', 'call', 'audio'],
   },
   outbox: {
     svg: (
@@ -1955,6 +1993,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'email', 'communication', 'box'],
   },
   phone: {
     svg: (
@@ -1968,6 +2007,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['call', 'conversation'],
   },
   'reply-all': {
     svg: (
@@ -1988,6 +2028,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'communication', 'chat'],
   },
   reply: {
     svg: (
@@ -2015,6 +2056,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mail', 'communication', 'chat', 'undo'],
   },
   send: {
     svg: (
@@ -2049,6 +2091,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['message', 'mail'],
   },
   vibrate: {
     svg: (
@@ -2082,6 +2125,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mute', 'haptic', 'notification'],
   },
   voicemail: {
     svg: (
@@ -2097,6 +2141,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['missed', 'call'],
   },
   'wifi-off': {
     svg: (
@@ -2138,6 +2183,15 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'internet',
+      'wireless',
+      'network',
+      'wlan',
+      'signal',
+      'low',
+      'disabled',
+    ],
   },
   wifi: {
     svg: (
@@ -2172,6 +2226,14 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'internet',
+      'wireless',
+      'network',
+      'wlan',
+      'signal',
+      'connected',
+    ],
   },
   'airpods-case': {
     svg: (
@@ -2188,6 +2250,7 @@ const icons = {
         <Path d='M5 9L19 9' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['device', 'earphones', 'apple'],
   },
   'battery-charging': {
     svg: (
@@ -2220,6 +2283,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'electricity', 'power'],
   },
   'battery-full': {
     svg: (
@@ -2270,6 +2334,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'charged', 'full', 'charging'],
   },
   'battery-low': {
     svg: (
@@ -2299,6 +2364,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'empty', 'charging'],
   },
   'battery-mid-high': {
     svg: (
@@ -2342,6 +2408,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'charging'],
   },
   'battery-mid-low': {
     svg: (
@@ -2378,6 +2445,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'charging'],
   },
   battery: {
     svg: (
@@ -2400,6 +2468,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'charging'],
   },
   calculator: {
     svg: (
@@ -2478,6 +2547,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'math', 'calculation'],
   },
   camera: {
     svg: (
@@ -2492,6 +2562,15 @@ const icons = {
         <Circle cx='17' cy='10' r='1' fill='black' />
       </Svg>
     ),
+    keywords: [
+      'device',
+      'photo',
+      'video',
+      'photography',
+      'dslr',
+      'slr',
+      'film',
+    ],
   },
   cellphone: {
     svg: (
@@ -2523,6 +2602,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['mobile', 'device', 'call'],
   },
   chip: {
     svg: (
@@ -2628,6 +2708,16 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'device',
+      'tech',
+      'intel',
+      'amd',
+      'processor',
+      'cpu',
+      'gpu',
+      'soc',
+    ],
   },
   clock: {
     svg: (
@@ -2649,6 +2739,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'time', 'watch'],
   },
   earphones: {
     svg: (
@@ -2669,6 +2760,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'airpods', 'apple', 'music', 'headphones'],
   },
   'game-controller': {
     svg: (
@@ -2737,6 +2829,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'gamig', 'playstation', 'xbox', 'nintendo'],
   },
   headphones: {
     svg: (
@@ -2758,6 +2851,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'earphones', 'dj'],
   },
   'laptop-2': {
     svg: (
@@ -2773,6 +2867,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'macbook', 'notebook', 'netbook'],
   },
   laptop: {
     svg: (
@@ -2791,6 +2886,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'macbook', 'notebook', 'netbook'],
   },
   monitor: {
     svg: (
@@ -2821,6 +2917,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'computer', 'tv', 'ecran'],
   },
   mouse: {
     svg: (
@@ -2843,6 +2940,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'pointer', 'scroll'],
   },
   'movie-camera-off': {
     svg: (
@@ -2874,6 +2972,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'disable', 'camera', 'picture', 'record'],
   },
   'movie-camera': {
     svg: (
@@ -2896,6 +2995,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'camera', 'picture', 'record'],
   },
   'nintendo-switch': {
     svg: (
@@ -2914,6 +3014,15 @@ const icons = {
         <Circle cx='16' cy='13' r='1' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: [
+      'device',
+      'logo',
+      'gaming',
+      'controller',
+      'zelda',
+      'mario',
+      'pokemon',
+    ],
   },
   'smartphone-2': {
     svg: (
@@ -2936,6 +3045,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'iphone', 'android', 'ios'],
   },
   smartphone: {
     svg: (
@@ -2955,6 +3065,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'iphone', 'android', 'ios', 'apple'],
   },
   smartphones: {
     svg: (
@@ -2983,6 +3094,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['devices', 'iphone', 'android'],
   },
   smartwatch: {
     svg: (
@@ -3024,6 +3136,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'time', 'clock', 'watch'],
   },
   speaker: {
     svg: (
@@ -3048,6 +3161,7 @@ const icons = {
         <Circle cx='12' cy='15' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['device', 'music', 'loud', 'sound', 'public announcement'],
   },
   stopwatch: {
     svg: (
@@ -3077,6 +3191,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'time', 'fast', 'running'],
   },
   'tablet-2': {
     svg: (
@@ -3098,6 +3213,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'ipad'],
   },
   tablet: {
     svg: (
@@ -3120,6 +3236,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'ipad'],
   },
   tv: {
     svg: (
@@ -3150,6 +3267,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'retro', 'antenna', 'television', 'program'],
   },
   watch: {
     svg: (
@@ -3191,6 +3309,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['device', 'clock', 'time'],
   },
   angry: {
     svg: (
@@ -3232,6 +3351,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'pissed'],
   },
   dead: {
     svg: (
@@ -3274,6 +3394,15 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'emotion',
+      'emoji',
+      'face',
+      'person',
+      'wasted',
+      'destroyed',
+      'faint',
+    ],
   },
   frown: {
     svg: (
@@ -3301,6 +3430,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'sad', 'disappointed'],
   },
   grin: {
     svg: (
@@ -3329,6 +3459,15 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'emotion',
+      'emoji',
+      'face',
+      'person',
+      'happy',
+      'smiling',
+      'laughing',
+    ],
   },
   meh: {
     svg: (
@@ -3357,6 +3496,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'indiferent', 'bored'],
   },
   smile: {
     svg: (
@@ -3384,6 +3524,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'happy', 'laughing'],
   },
   smirk: {
     svg: (
@@ -3426,6 +3567,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'planning', 'plotting'],
   },
   surprise: {
     svg: (
@@ -3448,6 +3590,15 @@ const icons = {
         <Circle cx='12' cy='14' r='2' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: [
+      'emotion',
+      'emoji',
+      'face',
+      'person',
+      'shocked',
+      'impressed',
+      'wow',
+    ],
   },
   suspicious: {
     svg: (
@@ -3490,6 +3641,15 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'emotion',
+      'emoji',
+      'face',
+      'person',
+      'thinking',
+      'eyebrow',
+      'raise',
+    ],
   },
   sweat: {
     svg: (
@@ -3529,6 +3689,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'exhausted', 'exercising'],
   },
   'tear-smiling': {
     svg: (
@@ -3563,6 +3724,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'happy', 'phew'],
   },
   tear: {
     svg: (
@@ -3597,6 +3759,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'sad', 'frown'],
   },
   tongue: {
     svg: (
@@ -3630,6 +3793,7 @@ const icons = {
         <Path d='M8 13L16 13' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'teasing', 'playful'],
   },
   wink: {
     svg: (
@@ -3658,6 +3822,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['emotion', 'emoji', 'face', 'person', 'flirting'],
   },
   document: {
     svg: (
@@ -3689,6 +3854,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['file', 'text', 'word', 'docs', 'pages'],
   },
   'file-minus': {
     svg: (
@@ -3708,6 +3874,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['file', 'text', 'delete', 'remove'],
   },
   'file-plus': {
     svg: (
@@ -3733,6 +3900,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['file', 'text', 'add', 'create'],
   },
   file: {
     svg: (
@@ -3746,6 +3914,7 @@ const icons = {
         <Path d='M13 3L19 9' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['file', 'text'],
   },
   files: {
     svg: (
@@ -3779,6 +3948,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['folder', 'directory', 'duplicate'],
   },
   'folder-minus': {
     svg: (
@@ -3796,6 +3966,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['folder', 'directory', 'delete', 'remove'],
   },
   'folder-plus': {
     svg: (
@@ -3819,6 +3990,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['folder', 'directory', 'add', 'create'],
   },
   folder: {
     svg: (
@@ -3830,6 +4002,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['folder', 'directory'],
   },
   airplay: {
     svg: (
@@ -3849,6 +4022,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['cast', 'apple'],
   },
   'alert-circle': {
     svg: (
@@ -3868,6 +4042,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['warning', 'attention', 'notification'],
   },
   'alert-octogon': {
     svg: (
@@ -3891,6 +4066,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['warning', 'attention', 'notification'],
   },
   'alert-triangle': {
     svg: (
@@ -3914,6 +4090,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['warning', 'attention', 'notification'],
   },
   'align-center': {
     svg: (
@@ -3948,6 +4125,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'paragraph'],
   },
   'align-justify': {
     svg: (
@@ -3982,6 +4160,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'paragraph'],
   },
   'align-left': {
     svg: (
@@ -4016,6 +4195,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'paragraph'],
   },
   'align-right': {
     svg: (
@@ -4050,6 +4230,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'paragraph'],
   },
   award: {
     svg: (
@@ -4063,6 +4244,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['prize', 'congratulations', 'medal', 'trophy', 'first'],
   },
   book: {
     svg: (
@@ -4105,6 +4287,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'notebook', 'publication', 'journal'],
   },
   bookmark: {
     svg: (
@@ -4123,6 +4306,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['favorite'],
   },
   'bullet-large': {
     svg: (
@@ -4130,6 +4314,7 @@ const icons = {
         <Circle cx='12' cy='12' r='4' fill='black' />
       </Svg>
     ),
+    keywords: ['list', 'ul'],
   },
   'bullet-small': {
     svg: (
@@ -4137,6 +4322,7 @@ const icons = {
         <Circle cx='12' cy='12' r='2' fill='black' />
       </Svg>
     ),
+    keywords: ['list', 'ul'],
   },
   bullet: {
     svg: (
@@ -4144,6 +4330,7 @@ const icons = {
         <Circle cx='12' cy='12' r='3' fill='black' />
       </Svg>
     ),
+    keywords: ['list', 'ul'],
   },
   cast: {
     svg: (
@@ -4163,6 +4350,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['airplay', 'google'],
   },
   'check-circle': {
     svg: (
@@ -4182,6 +4370,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['complete', 'finished'],
   },
   'check-double': {
     svg: (
@@ -4209,6 +4398,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['complete', 'finished', 'read', 'delivered'],
   },
   'check-square': {
     svg: (
@@ -4228,6 +4418,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['complete', 'finished', 'todo'],
   },
   check: {
     svg: (
@@ -4241,6 +4432,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['complete', 'finished', 'sent', 'delivered'],
   },
   'circle-small': {
     svg: (
@@ -4248,6 +4440,7 @@ const icons = {
         <Circle cx='12' cy='12' r='7' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['shape'],
   },
   circle: {
     svg: (
@@ -4255,6 +4448,7 @@ const icons = {
         <Circle cx='12' cy='12' r='9' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['shape'],
   },
   clipboard: {
     svg: (
@@ -4273,6 +4467,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['copy', 'cut', 'paste'],
   },
   'cloud-download': {
     svg: (
@@ -4375,6 +4570,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['cmd', 'key', 'keyboard', 'shortcut'],
   },
   cookie: {
     svg: (
@@ -4394,6 +4590,7 @@ const icons = {
         <Circle cx='5' cy='8' r='1.5' fill='black' />
       </Svg>
     ),
+    keywords: ['gdpr', 'privacy', 'snack'],
   },
   copy: {
     svg: (
@@ -4415,6 +4612,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['clipboard', 'paste', 'cut'],
   },
   copyright: {
     svg: (
@@ -4428,6 +4626,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['registered', 'c-circle'],
   },
   crop: {
     svg: (
@@ -4448,6 +4647,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['edit', 'trim', 'picture'],
   },
   crosshair: {
     svg: (
@@ -4479,6 +4679,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['aim', 'precise', 'hunt'],
   },
   divide: {
     svg: (
@@ -4494,6 +4695,7 @@ const icons = {
         <Circle cx='12' cy='18' r='2' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['math', 'division'],
   },
   download: {
     svg: (
@@ -4541,6 +4743,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['globe'],
   },
   'edit-2': {
     svg: (
@@ -4560,6 +4763,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['pen', 'pencil', 'draw', 'write', 'apple'],
   },
   'edit-3': {
     svg: (
@@ -4586,6 +4790,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['pen', 'pencil', 'draw', 'write'],
   },
   edit: {
     svg: (
@@ -4598,6 +4803,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['pen', 'pencil', 'draw', 'write', 'apple'],
   },
   'external-link': {
     svg: (
@@ -4631,6 +4837,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['share', 'open', 'link', 'url'],
   },
   'face-id': {
     svg: (
@@ -4675,6 +4882,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['authentication', 'passcode'],
   },
   feed: {
     svg: (
@@ -4696,6 +4904,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rss', 'updates'],
   },
   filter: {
     svg: (
@@ -4727,6 +4936,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['authentication', 'passcode'],
   },
   flag: {
     svg: (
@@ -4757,6 +4967,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['country'],
   },
   'full-screen': {
     svg: (
@@ -4823,6 +5034,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['maximize'],
   },
   gift: {
     svg: (
@@ -4864,6 +5076,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['present', 'christmas'],
   },
   globe: {
     svg: (
@@ -4892,6 +5105,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['earth'],
   },
   'heart-filled': {
     svg: (
@@ -4906,6 +5120,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['like', 'wishlist', 'rate'],
   },
   heart: {
     svg: (
@@ -4919,6 +5134,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['like', 'wishlist', 'rate'],
   },
   image: {
     svg: (
@@ -4942,6 +5158,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['picture', 'artwork', 'placeholder'],
   },
   indent: {
     svg: (
@@ -4976,6 +5193,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'paragraph'],
   },
   info: {
     svg: (
@@ -4995,6 +5213,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['about', 'more'],
   },
   key: {
     svg: (
@@ -5016,6 +5235,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['unlock', 'lock'],
   },
   layers: {
     svg: (
@@ -5040,6 +5260,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['arrange'],
   },
   'link-2': {
     svg: (
@@ -5065,6 +5286,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['url', 'uri', 'connect'],
   },
   link: {
     svg: (
@@ -5083,6 +5305,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['url', 'uri', 'connect'],
   },
   list: {
     svg: (
@@ -5131,6 +5354,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['ul', 'reminders', 'todo'],
   },
   loading: {
     svg: (
@@ -5185,6 +5409,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['circle', 'star'],
   },
   lock: {
     svg: (
@@ -5206,6 +5431,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['unlock'],
   },
   'log-in': {
     svg: (
@@ -5237,6 +5463,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sign in', 'sign up', 'enter'],
   },
   'log-out': {
     svg: (
@@ -5268,6 +5495,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sign out', 'exit', 'leave'],
   },
   magnifier: {
     svg: (
@@ -5281,6 +5509,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['zoom', 'search'],
   },
   maximize: {
     svg: (
@@ -5335,6 +5564,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['full screen'],
   },
   'menu-2': {
     svg: (
@@ -5362,6 +5592,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['more', 'hamburger'],
   },
   'menu-3': {
     svg: (
@@ -5389,6 +5620,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['more', 'hamburger'],
   },
   menu: {
     svg: (
@@ -5416,6 +5648,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['more', 'hamburger'],
   },
   minimize: {
     svg: (
@@ -5470,6 +5703,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['decrease'],
   },
   minus: {
     svg: (
@@ -5483,6 +5717,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'remove', 'delete'],
   },
   'more-vertical': {
     svg: (
@@ -5492,6 +5727,7 @@ const icons = {
         <Circle cx='12' cy='18' r='2' fill='black' />
       </Svg>
     ),
+    keywords: ['menu', 'kebab'],
   },
   more: {
     svg: (
@@ -5501,6 +5737,7 @@ const icons = {
         <Circle cx='18' cy='12' r='2' fill='black' />
       </Svg>
     ),
+    keywords: ['menu', 'meatballs'],
   },
   move: {
     svg: (
@@ -5567,6 +5804,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rearrange'],
   },
   numpad: {
     svg: (
@@ -5580,6 +5818,7 @@ const icons = {
         <Circle cx='12' cy='19' r='2' fill='black' />
       </Svg>
     ),
+    keywords: ['passcode', 'password', 'input', 'number'],
   },
   outdent: {
     svg: (
@@ -5614,6 +5853,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['text', 'paragraph', 'dedent'],
   },
   paperclip: {
     svg: (
@@ -5627,6 +5867,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['connect', 'attachment', 'attach'],
   },
   percent: {
     svg: (
@@ -5642,6 +5883,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math'],
   },
   permille: {
     svg: (
@@ -5663,6 +5905,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math'],
   },
   plus: {
     svg: (
@@ -5683,6 +5926,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['math', 'more', 'add', 'addition'],
   },
   'question-circle': {
     svg: (
@@ -5702,6 +5946,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['unknown', 'missing', 'info', 'QA', 'FAQ'],
   },
   rearrange: {
     svg: (
@@ -5743,6 +5988,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['arrange'],
   },
   'rectangle-landscape': {
     svg: (
@@ -5758,6 +6004,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['tablet', 'ipad'],
   },
   'rectangle-portrait': {
     svg: (
@@ -5773,6 +6020,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['tablet', 'ipad'],
   },
   'refresh-2': {
     svg: (
@@ -5815,6 +6063,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['reload', 'rotate'],
   },
   refresh: {
     svg: (
@@ -5839,6 +6088,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['reload', 'rotate'],
   },
   'resize-diagonal-down-up': {
     svg: (
@@ -5875,6 +6125,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['arrange'],
   },
   'resize-diagonal-up-down': {
     svg: (
@@ -5911,6 +6162,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['arrange'],
   },
   'resize-horizontal': {
     svg: (
@@ -5952,6 +6204,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['arrange'],
   },
   'resize-vertical': {
     svg: (
@@ -5993,6 +6246,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['arrange'],
   },
   save: {
     svg: (
@@ -6018,6 +6272,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['diskette', 'disk', 'floppy'],
   },
   scissors: {
     svg: (
@@ -6040,6 +6295,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['cut', 'move'],
   },
   'screen-sharing': {
     svg: (
@@ -6062,6 +6318,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['cast', 'airplay'],
   },
   settings: {
     svg: (
@@ -6074,6 +6331,7 @@ const icons = {
         <Circle cx='12' cy='12' r='2' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['cogwheel', 'preferences', 'adjust'],
   },
   share: {
     svg: (
@@ -6108,6 +6366,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['open', 'external'],
   },
   'square-small': {
     svg: (
@@ -6123,6 +6382,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['shape', 'rectangle'],
   },
   square: {
     svg: (
@@ -6138,6 +6398,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['shape', 'rectangle'],
   },
   'star-filled': {
     svg: (
@@ -6150,6 +6411,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rate', 'like', 'rated'],
   },
   'star-half-filled': {
     svg: (
@@ -6167,6 +6429,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rate', 'like', 'rated'],
   },
   star: {
     svg: (
@@ -6178,6 +6441,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rate', 'like', 'rated'],
   },
   'target-dart': {
     svg: (
@@ -6215,6 +6479,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['precise', 'dart'],
   },
   target: {
     svg: (
@@ -6224,6 +6489,7 @@ const icons = {
         <Circle cx='12' cy='12' r='1' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['precise', 'dart'],
   },
   'toggle-left': {
     svg: (
@@ -6240,6 +6506,7 @@ const icons = {
         <Circle cx='9' cy='12' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['settings', 'preferences', 'adjust'],
   },
   'toggle-right': {
     svg: (
@@ -6256,6 +6523,7 @@ const icons = {
         <Circle cx='15' cy='12' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['settings', 'preferences', 'adjust'],
   },
   trash: {
     svg: (
@@ -6297,6 +6565,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['delete', 'remove', 'throw'],
   },
   unlock: {
     svg: (
@@ -6318,6 +6587,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['lock', 'enter'],
   },
   upload: {
     svg: (
@@ -6372,6 +6642,7 @@ const icons = {
         <Circle cx='12' cy='12' r='9' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['delete', 'remove', 'missing', 'notification', 'fail'],
   },
   x: {
     svg: (
@@ -6392,6 +6663,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['delete', 'remove', 'missing', 'notification', 'fail'],
   },
   'zoom-in': {
     svg: (
@@ -6417,6 +6689,7 @@ const icons = {
         <Circle cx='10' cy='10' r='7' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['magnifier', 'increase'],
   },
   'zoom-out': {
     svg: (
@@ -6436,6 +6709,7 @@ const icons = {
         <Circle cx='10' cy='10' r='7' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['magnifier', 'decrease'],
   },
   'git-branch': {
     svg: (
@@ -6456,6 +6730,7 @@ const icons = {
         <Circle cx='8' cy='8' r='2' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['code', 'version', 'github', 'gitlub', 'pr'],
   },
   'git-commit': {
     svg: (
@@ -6469,6 +6744,7 @@ const icons = {
         <Circle cx='12' cy='12' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['code', 'version', 'github', 'gitlub', 'pr'],
   },
   'git-merge': {
     svg: (
@@ -6494,6 +6770,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['code', 'version', 'github', 'gitlub', 'pr'],
   },
   'git-pull-request': {
     svg: (
@@ -6524,6 +6801,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['code', 'version', 'github', 'gitlub', 'pr'],
   },
   'location-pin': {
     svg: (
@@ -6536,6 +6814,7 @@ const icons = {
         <Circle cx='12' cy='10' r='2' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['map', 'navigation', 'location', 'direction'],
   },
   map: {
     svg: (
@@ -6561,6 +6840,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['map', 'navigation', 'location', 'direction'],
   },
   'navigation-2': {
     svg: (
@@ -6574,6 +6854,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['map', 'navigation', 'location', 'direction'],
   },
   navigation: {
     svg: (
@@ -6605,6 +6886,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand'],
   },
   dribbble: {
     svg: (
@@ -6640,6 +6922,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'design'],
   },
   facebook: {
     svg: (
@@ -6667,6 +6950,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'social network'],
   },
   figma: {
     svg: (
@@ -6702,6 +6986,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'design'],
   },
   framer: {
     svg: (
@@ -6722,6 +7007,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'design'],
   },
   github: {
     svg: (
@@ -6735,6 +7021,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'code'],
   },
   google: {
     svg: (
@@ -6748,6 +7035,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand'],
   },
   instagram: {
     svg: (
@@ -6770,6 +7058,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'social network'],
   },
   linkedin: {
     svg: (
@@ -6798,6 +7087,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'social network'],
   },
   slack: {
     svg: (
@@ -6844,6 +7134,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'chat', 'messages'],
   },
   twitter: {
     svg: (
@@ -6857,6 +7148,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'social network'],
   },
   youtube: {
     svg: (
@@ -6878,6 +7170,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['logo', 'brand', 'video', 'play', 'social network'],
   },
   'fast-forward': {
     svg: (
@@ -6896,6 +7189,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'skip', 'scrub'],
   },
   'note-2': {
     svg: (
@@ -6917,6 +7211,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song'],
   },
   note: {
     svg: (
@@ -6939,6 +7234,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song'],
   },
   pause: {
     svg: (
@@ -6957,6 +7253,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'playback'],
   },
   play: {
     svg: (
@@ -6969,6 +7266,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song'],
   },
   repeat: {
     svg: (
@@ -7017,6 +7315,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'loop'],
   },
   rewind: {
     svg: (
@@ -7035,6 +7334,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'back', 'scrub'],
   },
   shuffle: {
     svg: (
@@ -7083,6 +7383,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'mix', 'random'],
   },
   'skip-back': {
     svg: (
@@ -7101,6 +7402,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'previous'],
   },
   'skip-forward': {
     svg: (
@@ -7119,6 +7421,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'next'],
   },
   'volume-high': {
     svg: (
@@ -7146,6 +7449,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'sound', 'increase', 'volume'],
   },
   'volume-low': {
     svg: (
@@ -7166,6 +7470,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'sound', 'decrease', 'quiet', 'volume'],
   },
   'volume-x': {
     svg: (
@@ -7193,6 +7498,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'sound', 'decrease', 'volume', 'mute'],
   },
   volume: {
     svg: (
@@ -7206,6 +7512,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['music', 'song', 'sound', 'volume'],
   },
   anchor: {
     svg: (
@@ -7254,6 +7561,7 @@ const icons = {
         <Circle cx='12' cy='6' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['link'],
   },
   beer: {
     svg: (
@@ -7278,6 +7586,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['drink', 'alcohol'],
   },
   box: {
     svg: (
@@ -7296,6 +7605,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['package'],
   },
   brain: {
     svg: (
@@ -7314,6 +7624,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['smart', 'intelligent', 'iq'],
   },
   bug: {
     svg: (
@@ -7372,6 +7683,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['code', 'error', 'insect'],
   },
   coffee: {
     svg: (
@@ -7401,6 +7713,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['drink', 'caffeine', 'brew', 'morning'],
   },
   compass: {
     svg: (
@@ -7415,6 +7728,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['navigation', 'safari'],
   },
   'eye-off': {
     svg: (
@@ -7447,6 +7761,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['invisible', 'hide', 'hidden'],
   },
   eye: {
     svg: (
@@ -7468,6 +7783,7 @@ const icons = {
         <Circle cx='12' cy='12' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['show', 'display'],
   },
   film: {
     svg: (
@@ -7537,6 +7853,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['movie', '35mm'],
   },
   flower: {
     svg: (
@@ -7592,6 +7909,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['plant'],
   },
   'glasses-round': {
     svg: (
@@ -7606,6 +7924,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sunglasses', 'lenon', 'harry potter'],
   },
   'glasses-square': {
     svg: (
@@ -7628,6 +7947,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sunglasses', 'wayfarer', 'cool', 'blues'],
   },
   glasses: {
     svg: (
@@ -7646,6 +7966,7 @@ const icons = {
         <Path d='M10.5 12H13.5' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['sunglasses', 'aviator'],
   },
   leaf: {
     svg: (
@@ -7664,6 +7985,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['nature'],
   },
   'lightbulb-2': {
     svg: (
@@ -7699,6 +8021,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['idea', 'light'],
   },
   lightbulb: {
     svg: (
@@ -7716,6 +8039,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['idea'],
   },
   'martini-2': {
     svg: (
@@ -7750,6 +8074,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['drink', 'alcohol', 'james bond', 'cocktail'],
   },
   martini: {
     svg: (
@@ -7791,6 +8116,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['drink', 'alcohol', 'cocktail', 'james bond'],
   },
   medal: {
     svg: (
@@ -7826,6 +8152,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['award', 'first', 'trophy', 'victory', 'win'],
   },
   package: {
     svg: (
@@ -7857,6 +8184,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['box', 'delivery'],
   },
   pin: {
     svg: (
@@ -7898,6 +8226,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['favorite', 'save', 'location'],
   },
   pokeball: {
     svg: (
@@ -7913,6 +8242,7 @@ const icons = {
         <Circle cx='12' cy='12' r='3' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['pokemon', 'game'],
   },
   suitcase: {
     svg: (
@@ -7935,6 +8265,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['travel'],
   },
   'thumbs-down': {
     svg: (
@@ -7953,6 +8284,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rate', 'dislike'],
   },
   'thumbs-up': {
     svg: (
@@ -7971,6 +8303,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['rate', 'like'],
   },
   'tree-2': {
     svg: (
@@ -7989,6 +8322,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['nature', 'plant'],
   },
   tree: {
     svg: (
@@ -8007,6 +8341,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['nature', 'plant', 'christmas'],
   },
   triforce: {
     svg: (
@@ -8031,6 +8366,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['zelda', 'triangle', 'link'],
   },
   trophy: {
     svg: (
@@ -8072,6 +8408,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['award', 'first', 'victory'],
   },
   wine: {
     svg: (
@@ -8096,6 +8433,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['drink', 'alcohol'],
   },
   briefcase: {
     svg: (
@@ -8118,6 +8456,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['travel', 'work'],
   },
   code: {
     svg: (
@@ -8145,6 +8484,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['profession', 'developer', 'programming'],
   },
   cross: {
     svg: (
@@ -8156,6 +8496,14 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'profession',
+      'doctor',
+      'medic',
+      'medicine',
+      'hospice',
+      'hospital',
+    ],
   },
   database: {
     svg: (
@@ -8190,6 +8538,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['profession', 'storage', 'devops', 'tech'],
   },
   design: {
     svg: (
@@ -8223,6 +8572,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['profession', 'illustration'],
   },
   law: {
     svg: (
@@ -8265,6 +8615,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['profession', 'lawyer', 'judge'],
   },
   pill: {
     svg: (
@@ -8286,6 +8637,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['profession', 'doctor', 'bacteria', 'antibiotic'],
   },
   server: {
     svg: (
@@ -8339,6 +8691,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['profession', 'devops', 'developer', 'programming'],
   },
   terminal: {
     svg: (
@@ -8359,6 +8712,14 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'profession',
+      'programming',
+      'development',
+      'developer',
+      'coding',
+      'devops',
+    ],
   },
   vaccine: {
     svg: (
@@ -8403,6 +8764,15 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'profession',
+      'pandemic',
+      'vaccine',
+      'shot',
+      'doctor',
+      'virus',
+      'viral',
+    ],
   },
   'card-2': {
     svg: (
@@ -8426,6 +8796,7 @@ const icons = {
         <Circle cx='14' cy='14' r='1' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'amex', 'diners', 'mastercard'],
   },
   card: {
     svg: (
@@ -8455,6 +8826,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'amex', 'diners', 'mastercard'],
   },
   'coin-stack': {
     svg: (
@@ -8495,6 +8867,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'cash', 'dollar', 'coins'],
   },
   coin: {
     svg: (
@@ -8523,6 +8896,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'dollar', 'currency'],
   },
   'dollar-sign': {
     svg: (
@@ -8550,6 +8924,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'currency', 'dollar'],
   },
   'shopping-bag': {
     svg: (
@@ -8570,6 +8945,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'cart', 'buy'],
   },
   'shopping-basket': {
     svg: (
@@ -8618,6 +8994,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'cart', 'buy'],
   },
   'shopping-cart': {
     svg: (
@@ -8659,6 +9036,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['payment', 'money', 'basket'],
   },
   baseball: {
     svg: (
@@ -8680,6 +9058,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'bat', 'base'],
   },
   basketball: {
     svg: (
@@ -8715,6 +9094,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'nba', 'ball'],
   },
   bicycle: {
     svg: (
@@ -8743,6 +9123,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'riding', 'race', 'bike'],
   },
   bike: {
     svg: (
@@ -8771,6 +9152,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'riding', 'race'],
   },
   boomerang: {
     svg: (
@@ -8798,6 +9180,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['exercise', 'throw', 'return'],
   },
   bowling: {
     svg: (
@@ -8826,6 +9209,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'game', 'flinstones'],
   },
   boxing: {
     svg: (
@@ -8846,6 +9230,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'fighting', 'punching', 'glove'],
   },
   football: {
     svg: (
@@ -8886,6 +9271,14 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'sport',
+      'exercise',
+      'athlete',
+      'rugby',
+      'ball',
+      'american football',
+    ],
   },
   golf: {
     svg: (
@@ -8913,6 +9306,7 @@ const icons = {
         <Ellipse cx='14' cy='18' rx='3' ry='1' fill='black' />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'tee'],
   },
   rugby: {
     svg: (
@@ -8953,6 +9347,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'football', 'ball'],
   },
   running: {
     svg: (
@@ -8993,6 +9388,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'race', 'dash'],
   },
   'skateboard-2': {
     svg: (
@@ -9047,6 +9443,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'skater'],
   },
   skateboard: {
     svg: (
@@ -9096,6 +9493,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'skater'],
   },
   sneaker: {
     svg: (
@@ -9123,6 +9521,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'running'],
   },
   'soccer-2': {
     svg: (
@@ -9169,6 +9568,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'football', 'kick'],
   },
   soccer: {
     svg: (
@@ -9219,6 +9619,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'football', 'kick', 'ball'],
   },
   swimming: {
     svg: (
@@ -9245,6 +9646,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'race', 'sea', 'pool'],
   },
   'table-tennis': {
     svg: (
@@ -9271,6 +9673,7 @@ const icons = {
         <Circle cx='18.5' cy='14.5' r='2.5' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'racket'],
   },
   tennis: {
     svg: (
@@ -9299,6 +9702,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'ball'],
   },
   volleyball: {
     svg: (
@@ -9334,6 +9738,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'ball'],
   },
   weight: {
     svg: (
@@ -9361,6 +9766,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['sport', 'exercise', 'athlete', 'barbell', 'gym'],
   },
   'user-check': {
     svg: (
@@ -9382,6 +9788,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['person', 'customer', 'complete', 'add', 'sign up', 'success'],
   },
   'user-minus': {
     svg: (
@@ -9403,6 +9810,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['person', 'customer', 'remove', 'delete'],
   },
   'user-plus': {
     svg: (
@@ -9431,6 +9839,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['person', 'customer', 'add', 'create'],
   },
   'user-x': {
     svg: (
@@ -9459,6 +9868,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['person', 'customer', 'delete', 'remove'],
   },
   user: {
     svg: (
@@ -9473,6 +9883,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['person', 'customer'],
   },
   users: {
     svg: (
@@ -9500,6 +9911,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['person', 'customer', 'people', 'group'],
   },
   bus: {
     svg: (
@@ -9529,6 +9941,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['vehicle', 'driving', 'wheels', 'driver'],
   },
   car: {
     svg: (
@@ -9551,6 +9964,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['vehicle', 'driving', 'wheels'],
   },
   pickup: {
     svg: (
@@ -9573,6 +9987,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['vehicle', 'driving', 'truck', 'wheels'],
   },
   plane: {
     svg: (
@@ -9585,6 +10000,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['vehicle', 'flying', 'sky', 'pilot'],
   },
   train: {
     svg: (
@@ -9616,6 +10032,7 @@ const icons = {
         <Circle r='1' transform='matrix(-1 0 0 1 15 4)' fill='black' />
       </Svg>
     ),
+    keywords: ['vehicle', 'riding', 'track'],
   },
   truck: {
     svg: (
@@ -9637,6 +10054,7 @@ const icons = {
         <Circle cx='17' cy='16' r='2' stroke='black' stroke-width='2' />
       </Svg>
     ),
+    keywords: ['vehicle', 'driving', 'transport'],
   },
   van: {
     svg: (
@@ -9659,6 +10077,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['vehicle', 'driving', 'transport'],
   },
   'cloud-sun': {
     svg: (
@@ -9677,6 +10096,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'sunny'],
   },
   cloud: {
     svg: (
@@ -9690,6 +10110,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'cloudy'],
   },
   moon: {
     svg: (
@@ -9702,6 +10123,16 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: [
+      'weather',
+      'forecast',
+      'night',
+      'do not disturb',
+      'focus',
+      'clear',
+      'evening',
+      'dark',
+    ],
   },
   rain: {
     svg: (
@@ -9739,6 +10170,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'storm', 'cloud'],
   },
   snow: {
     svg: (
@@ -9800,6 +10232,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'cold', 'cloud'],
   },
   sun: {
     svg: (
@@ -9863,6 +10296,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'clear', 'sunny'],
   },
   thunderstorm: {
     svg: (
@@ -9900,6 +10334,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'storm'],
   },
   wind: {
     svg: (
@@ -9945,6 +10380,7 @@ const icons = {
         />
       </Svg>
     ),
+    keywords: ['weather', 'forecast', 'blow', 'cold'],
   },
 };
 
