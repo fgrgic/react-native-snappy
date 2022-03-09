@@ -20,7 +20,7 @@ const App = () => {
       <Snappy name='grin' />
       <Snappy name='cloud-upload' />
       <Snappy name='x' />
-      <Snappy name='cookie' size={40} />
+      <Snappy name='cookie' size={100} />
       <Snappy name='copy' strokeWidth={2.5} />
       <Snappy name='airpods-case' strokeWidth={1} />
       <Snappy name='toggle-right' color='#ff6666' />
