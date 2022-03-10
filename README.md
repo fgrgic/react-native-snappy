@@ -33,7 +33,7 @@ npm i react-native-snappy
 
 ## Available icons
 
-Website in construction. The list of available icon names can be found [here](https://github.com/fgrgic/react-native-snappy/blob/main/src/Snappy/README.md).
+The list of all the icons is available on the official website [snappyicons.com](https://snappyicons.com).
 
 ## Usage
 
