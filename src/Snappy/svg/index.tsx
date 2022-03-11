@@ -1360,14 +1360,7 @@ const icons = {
           strokeWidth='2'
           strokeLinecap='round'
         />
-        <Circle
-          cx='12'
-          cy='20'
-          r='1'
-          fill='black'
-          stroke='black'
-          strokeWidth='2'
-        />
+        <Circle cx='12' cy='20' r='1' stroke='black' strokeWidth='2' />
       </Svg>
     ),
     keywords: ['notification', 'ring', 'sound', 'silent'],
@@ -1376,14 +1369,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Circle cx='16' cy='9' r='3' stroke='black' strokeWidth='2' />
-        <Circle
-          cx='12'
-          cy='20'
-          r='1'
-          fill='black'
-          stroke='black'
-          strokeWidth='2'
-        />
+        <Circle cx='12' cy='20' r='1' stroke='black' strokeWidth='2' />
         <Path
           d='M17.2618 11.7062C17.3326 12.9574 17.4687 13.9686 18 14.5L19 15.5C20.5812 17.0811 20 19 18 19H6.00003C4.00003 19 3.41883 17.0811 5.00001 15.5L6 14.5C6.99998 13.5 6.60001 10.8 7.00001 8C7.40001 5.2 10.5 4 12 4C12.2853 4 12.6285 4.04341 13 4.13299'
           stroke='black'
@@ -1429,14 +1415,7 @@ const icons = {
           strokeWidth='2'
           strokeLinecap='round'
         />
-        <Circle
-          cx='12'
-          cy='20'
-          r='1'
-          fill='black'
-          stroke='black'
-          strokeWidth='2'
-        />
+        <Circle cx='12' cy='20' r='1' stroke='black' strokeWidth='2' />
       </Svg>
     ),
     keywords: ['notification', 'ring', 'sound', 'loud'],
@@ -1464,14 +1443,7 @@ const icons = {
           strokeWidth='2'
           strokeLinecap='round'
         />
-        <Circle
-          cx='12'
-          cy='20'
-          r='1'
-          fill='black'
-          stroke='black'
-          strokeWidth='2'
-        />
+        <Circle cx='12' cy='20' r='1' stroke='black' strokeWidth='2' />
       </Svg>
     ),
     keywords: ['notification', 'ring', 'sound'],
@@ -1666,21 +1638,18 @@ const icons = {
         <Circle
           r='0.5'
           transform='matrix(-1 0 0 1 8 10)'
-          fill='black'
           stroke='black'
           strokeWidth='2'
         />
         <Circle
           r='0.5'
           transform='matrix(-1 0 0 1 16 10)'
-          fill='black'
           stroke='black'
           strokeWidth='2'
         />
         <Circle
           r='0.5'
           transform='matrix(-1 0 0 1 12 10)'
-          fill='black'
           stroke='black'
           strokeWidth='2'
         />
@@ -2749,7 +2718,7 @@ const icons = {
         />
         <Path d='M6 9H18M13.5 16H10.5' stroke='black' strokeWidth='2' />
         <Path
-          d='M12 8C12 6.5 12.1515 5.84854 13 5C14 4 17 3 17 1'
+          d='M17 1C17 3 14 4 13 5C12.1515 5.84854 12 6.5 12 8V9'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -2862,7 +2831,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M12 18V19'
+          d='M12 17V20'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -2936,9 +2905,10 @@ const icons = {
           strokeLinecap='round'
         />
         <Path
-          d='M5 18H14C15.1046 18 16 17.1046 16 16V8C16 7.63571 15.9026 7.29417 15.7324 7'
+          d='M5.5 18L14 18C15.1046 18 16 17.1046 16 16V8C16 7.73822 15.9497 7.4882 15.8582 7.25905'
           stroke='black'
           strokeWidth='2'
+          strokeLinecap='round'
         />
       </Svg>
     ),
@@ -5463,7 +5433,7 @@ const icons = {
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Circle cx='10' cy='10' r='7' stroke='black' strokeWidth='2' />
         <Path
-          d='M15 16L20 21'
+          d='M14.5 15.5L20 21'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -5742,13 +5712,13 @@ const icons = {
           strokeLinecap='round'
         />
         <Path
-          d='M4 12L20 12'
+          d='M3 12H21'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
         />
         <Path
-          d='M12 4.00001L12 21'
+          d='M12 3L12 21'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6210,7 +6180,7 @@ const icons = {
           strokeLinejoin='round'
         />
         <Path
-          d='M15 5V8H9V4'
+          d='M15 4V8H9V4'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6366,15 +6336,13 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M11.0446 4.09181C11.335 3.15214 12.665 3.15213 12.9554 4.09181L14.379 8.69849C14.5084 9.1175 14.8958 9.40325 15.3344 9.40325H20.0437C21.0002 9.40325 21.4109 10.6172 20.6508 11.1979L16.7559 14.1733C16.4229 14.4277 16.2838 14.8628 16.4076 15.2632L17.8747 20.0108C18.1621 20.941 17.0859 21.6918 16.3122 21.1007L12.6071 18.2703C12.2487 17.9965 11.7513 17.9965 11.3929 18.2703L7.68782 21.1007C6.91413 21.6918 5.83788 20.941 6.12533 20.0108L7.59243 15.2632C7.71616 14.8628 7.5771 14.4277 7.24407 14.1733L3.34923 11.1979C2.58912 10.6172 2.99976 9.40325 3.9563 9.40325H8.66561C9.10417 9.40325 9.49155 9.1175 9.62103 8.69849L11.0446 4.09181Z'
-          stroke='black'
-          strokeWidth='2'
+          d='M7.68782 21.1007L11.3929 18.2703C11.5721 18.1334 11.7861 18.0649 12 18.0649V3.38705C11.5949 3.38705 11.1898 3.62198 11.0446 4.09181L9.62104 8.69849C9.49156 9.1175 9.10417 9.40325 8.66561 9.40325H3.9563C2.99976 9.40325 2.58912 10.6172 3.34923 11.1979L7.24407 14.1733C7.5771 14.4277 7.71616 14.8628 7.59243 15.2632L6.12533 20.0108C5.83788 20.941 6.91413 21.6918 7.68782 21.1007Z'
+          fill='black'
         />
         <Path
-          fillRule='evenodd'
-          clipRule='evenodd'
-          d='M12 3.19354C11.7974 3.19354 11.5949 3.311 11.5223 3.54592L9.74821 9.28696C9.68347 9.49646 9.48978 9.63934 9.2705 9.63934H3.47815C2.99988 9.63934 2.79456 10.2463 3.17462 10.5367L7.90319 14.149C8.0697 14.2762 8.13923 14.4937 8.07737 14.6939L6.28151 20.5054C6.13779 20.9705 6.67591 21.3459 7.06276 21.0504L11.6965 17.5105C11.7861 17.4421 11.893 17.4079 12 17.4079V3.19354ZM21 9.9931C21.0296 10.0894 21.0313 10.1943 21 10.2928V9.9931Z'
-          fill='black'
+          d='M11.0446 4.09181C11.335 3.15214 12.665 3.15213 12.9554 4.09181L14.379 8.69849C14.5084 9.1175 14.8958 9.40325 15.3344 9.40325H20.0437C21.0002 9.40325 21.4109 10.6172 20.6508 11.1979L16.7559 14.1733C16.4229 14.4277 16.2838 14.8628 16.4076 15.2632L17.8747 20.0108C18.1621 20.941 17.0859 21.6918 16.3122 21.1007L12.6071 18.2703C12.2487 17.9965 11.7513 17.9965 11.3929 18.2703L7.68782 21.1007C6.91413 21.6918 5.83788 20.941 6.12533 20.0108L7.59243 15.2632C7.71616 14.8628 7.5771 14.4277 7.24407 14.1733L3.34923 11.1979C2.58912 10.6172 2.99976 9.40325 3.9563 9.40325H8.66561C9.10417 9.40325 9.49156 9.1175 9.62104 8.69849L11.0446 4.09181Z'
+          stroke='black'
+          strokeWidth='2'
         />
       </Svg>
     ),
@@ -6478,7 +6446,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M6 8V19C6 20.1046 6.89543 21 8 21H16C17.1046 21 18 20.1046 18 19V8'
+          d='M6 7V19C6 20.1046 6.89543 21 8 21H16C17.1046 21 18 20.1046 18 19V7'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6529,7 +6497,7 @@ const icons = {
           strokeWidth='2'
         />
         <Path
-          d='M8 11C8 11 8 8 8 6C8 4 10 3 12 3C14 3 16 4 16 6'
+          d='M8 12C8 12 8 8 8 6C8 4 10 3 12 3C14 3 16 4 16 6'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6618,7 +6586,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M15 16L20 21'
+          d='M14.5 15.5L20 21'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6644,7 +6612,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M15 16L20 21'
+          d='M14.5 15.5L20 21'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6705,7 +6673,7 @@ const icons = {
           strokeLinecap='round'
         />
         <Path
-          d='M14 8V8C9.58172 8 6 11.5817 6 16V16'
+          d='M14 8L13 8C9.13402 8 6.00001 11.134 6.00001 15V15'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -6776,7 +6744,7 @@ const icons = {
           strokeLinejoin='round'
         />
         <Path
-          d='M8 5V17.5'
+          d='M8 4.39612V17.5'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -7501,7 +7469,7 @@ const icons = {
           strokeLinejoin='round'
         />
         <Path
-          d='M12 20V9'
+          d='M12 21V9'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -7697,7 +7665,7 @@ const icons = {
           strokeLinejoin='round'
         />
         <Path
-          d='M14 9.76389C14.6137 10.3132 15 11.1115 15 12C15 13.6569 13.6568 15 12 15C11.1115 15 10.3132 14.6137 9.76389 14'
+          d='M14.1291 9.88651C14.6674 10.4288 15 11.1755 15 12C15 13.6568 13.6569 15 12 15C11.1755 15 10.4288 14.6674 9.88651 14.1291'
           stroke='black'
           strokeWidth='2'
         />
@@ -7760,7 +7728,7 @@ const icons = {
           strokeLinecap='round'
         />
         <Path
-          d='M5 16H8'
+          d='M4 16L8 16'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -7784,7 +7752,7 @@ const icons = {
           strokeLinecap='round'
         />
         <Path
-          d='M19 16H16'
+          d='M20 16H16'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -7834,19 +7802,19 @@ const icons = {
           strokeLinecap='round'
         />
         <Path
-          d='M15.3713 10.5L17.5021 9.79953C18.6178 9.43276 19.2838 8.29053 19.0535 7.13891V7.13891C18.8697 6.21993 18.1514 5.5016 17.2324 5.31781V5.31781C16.0808 5.08748 14.9385 5.75351 14.5718 6.86921L13.8713 9'
+          d='M14.8713 10.5L17.0021 9.79953C18.1178 9.43276 18.7838 8.29053 18.5535 7.13891V7.13891C18.3697 6.21993 17.6514 5.5016 16.7324 5.31781V5.31781C15.5808 5.08748 14.4386 5.75351 14.0718 6.86921L13.3713 9'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
         />
         <Path
-          d='M15.3713 13.8713L17.5021 14.5718C18.6178 14.9386 19.2838 16.0808 19.0535 17.2324V17.2324C18.8697 18.1514 18.1514 18.8697 17.2324 19.0535V19.0535C16.0808 19.2838 14.9385 18.6178 14.5718 17.5021L13.8713 15.3713'
+          d='M14.8713 13.3713L17.0021 14.0718C18.1178 14.4386 18.7838 15.5808 18.5535 16.7324V16.7324C18.3697 17.6514 17.6514 18.3697 16.7324 18.5535V18.5535C15.5808 18.7838 14.4386 18.1178 14.0718 17.0021L13.3713 14.8713'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
         />
         <Path
-          d='M9 13.8713L6.8692 14.5718C5.75351 14.9386 5.08748 16.0808 5.3178 17.2324V17.2324C5.5016 18.1514 6.21993 18.8697 7.1389 19.0535V19.0535C8.29053 19.2838 9.43276 18.6178 9.79953 17.5021L10.5 15.3713'
+          d='M9 13.3713L6.8692 14.0718C5.75351 14.4386 5.08748 15.5808 5.3178 16.7324V16.7324C5.5016 17.6514 6.21993 18.3697 7.1389 18.5535V18.5535C8.29053 18.7838 9.43276 18.1178 9.79953 17.0021L10.5 14.8713'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -8543,7 +8511,7 @@ const icons = {
           strokeLinejoin='round'
         />
         <Path
-          d='M6 6H18'
+          d='M6 6H11M18 6H13'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -8943,20 +8911,8 @@ const icons = {
   'shopping-cart': {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
-        <Path
-          d='M7 20H7.01'
-          stroke='black'
-          strokeWidth='3'
-          strokeLinecap='round'
-          strokeLinejoin='round'
-        />
-        <Path
-          d='M17 20H17.01'
-          stroke='black'
-          strokeWidth='3'
-          strokeLinecap='round'
-          strokeLinejoin='round'
-        />
+        <Circle cx='7.5' cy='20' r='0.5' stroke='black' strokeWidth='2' />
+        <Circle cx='16.5' cy='20' r='0.5' stroke='black' strokeWidth='2' />
         <Path
           d='M6.78078 14H18.2192C18.6781 14 19.0781 13.6877 19.1894 13.2425L20.6894 7.24254C20.8472 6.61139 20.3698 6 19.7192 6H5.28078C4.63021 6 4.15285 6.61139 4.31063 7.24254L5.81063 13.2425C5.92193 13.6877 6.32191 14 6.78078 14Z'
           stroke='black'
@@ -9130,27 +9086,27 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Circle cx='12' cy='12' r='9' stroke='black' strokeWidth='2' />
-        <Path
-          d='M8 8H8.01'
+        <Circle
+          r='0.5'
+          transform='matrix(-1 0 0 1 8 8)'
           stroke='black'
-          strokeWidth='3'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          strokeWidth='2'
         />
-        <Path
-          d='M13 9H13.01'
+        <Circle r='0.5' transform='matrix(-1 0 0 1 8 8)' fill='black' />
+        <Circle
+          r='0.5'
+          transform='matrix(-1 0 0 1 13 9.5)'
           stroke='black'
-          strokeWidth='3'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          strokeWidth='2'
         />
-        <Path
-          d='M9 13H9.01'
+        <Circle r='0.5' transform='matrix(-1 0 0 1 13 9.5)' fill='black' />
+        <Circle
+          r='0.5'
+          transform='matrix(-1 0 0 1 8 13)'
           stroke='black'
-          strokeWidth='3'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          strokeWidth='2'
         />
+        <Circle r='0.5' transform='matrix(-1 0 0 1 8 13)' fill='black' />
       </Svg>
     ),
     keywords: ['sport', 'game', 'flinstones'],
@@ -9688,7 +9644,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M7 12H17M3 9V15M6 6V12V18M21 9V15M18 6V12V18'
+          d='M6 12H18M6 12V6M6 12V18M18 12V6M18 12V18M3 9V15M21 9V15'
           stroke='black'
           strokeWidth='2'
           strokeLinecap='round'
@@ -9982,7 +9938,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M12 16C13.1046 16 14 15.1046 14 14V8C14 6.89543 13.1046 6 12 6H5C3.89543 6 3 6.89543 3 8V14C3 14.7403 3.4022 15.3866 4 15.7324M8 16H9'
+          d='M4 15.7324C3.4022 15.3866 3 14.7403 3 14V8C3 6.89543 3.89543 6 5 6H12C13.1046 6 14 6.89543 14 8V14C14 14.7403 13.5978 15.3866 13 15.7324M8 16H9'
           stroke='black'
           strokeWidth='2'
         />
@@ -10027,7 +9983,7 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M11.8845 8.04175C11.4551 6.29538 9.87884 5 8 5C5.79086 5 4 6.79086 4 9C4 9.97964 4.35217 10.877 4.93681 11.5725'
+          d='M4.53513 11C4.19479 10.4117 4 9.72857 4 9C4 6.79086 5.79086 5 8 5C9.48056 5 10.7733 5.8044 11.4649 7'
           stroke='black'
           strokeWidth='2'
         />
