@@ -14,6 +14,7 @@ const App = () => {
       }}
     >
       <Snappy name='bell-notification' />
+      <Snappy name='pac-man' />
       <Snappy name='document' />
       <Snappy name='file' />
       <Snappy name='folder' />

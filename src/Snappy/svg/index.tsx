@@ -5051,7 +5051,7 @@ const icons = {
         />
       </Svg>
     ),
-    keywords: ['like', 'wishlist', 'rate'],
+    keywords: ['like', 'wishlist', 'rate', 'love'],
   },
   heart: {
     svg: (
@@ -5065,7 +5065,7 @@ const icons = {
         />
       </Svg>
     ),
-    keywords: ['like', 'wishlist', 'rate'],
+    keywords: ['like', 'wishlist', 'rate', 'love'],
   },
   image: {
     svg: (
@@ -7702,6 +7702,18 @@ const icons = {
     ),
     keywords: ['show', 'display'],
   },
+  'pac-man': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M20.0422 15.8699C20.302 15.9876 20.412 16.2991 20.268 16.5452C19.3396 18.1319 17.945 19.4002 16.2679 20.1733C14.4321 21.0196 12.3647 21.2233 10.399 20.7513C8.43328 20.2794 6.68369 19.1594 5.43215 17.5719C4.18061 15.9843 3.5 14.0216 3.5 12C3.5 9.97844 4.18061 8.01574 5.43215 6.42816C6.68369 4.84059 8.43328 3.7206 10.399 3.24868C12.3647 2.77675 14.4321 2.98037 16.2679 3.82672C17.945 4.59984 19.3396 5.86815 20.268 7.45481C20.412 7.70092 20.302 8.01244 20.0422 8.13011L12.5053 11.5446C12.1138 11.7219 12.1138 12.2781 12.5053 12.4554L20.0422 15.8699Z'
+          stroke='black'
+          stroke-width='2'
+        />
+      </Svg>
+    ),
+    keywords: ['arcade', 'game', 'pacman'],
+  },
   film: {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
@@ -8215,7 +8227,7 @@ const icons = {
         />
       </Svg>
     ),
-    keywords: ['rate', 'like'],
+    keywords: ['rate', 'like', 'love'],
   },
   'tree-2': {
     svg: (
