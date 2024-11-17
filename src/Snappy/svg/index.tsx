@@ -1,5 +1,6 @@
 import React from 'react';
-import Svg, { Path, Circle, Rect, Ellipse } from 'react-native-svg';
+import Svg, { Circle, Ellipse, Path, Rect } from 'react-native-svg';
+
 import { IconConfig } from '../types';
 
 const icons = {
@@ -2042,25 +2043,27 @@ const icons = {
           height='16'
           rx='2'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
         <Path
-          d='M9 4H15V5C15 5.55228 14.5523 6 14 6H10C9.44772 6 9 5.55228 9 5V4Z'
-          fill='black'
+          d='M11 7H13'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
         />
         <Path
           d='M2.5 8L4.5 10L2.5 12L4.5 14L2.5 16'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Path
           d='M21.5 8L19.5 10L21.5 12L19.5 14L21.5 16'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
       </Svg>
     ),
@@ -2190,6 +2193,30 @@ const icons = {
       </Svg>
     ),
     keywords: ['device', 'earphones', 'apple'],
+  },
+  'airpods-pro-case': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Rect
+          x='3'
+          y='5'
+          width='18'
+          height='14'
+          rx='4'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path d='M3 10H21' stroke='black' stroke-width='2' />
+        <Path
+          d='M12 14H12.001'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+    keywords: ['device', 'earphones', 'apple', 'pro'],
   },
   'battery-charging': {
     svg: (
@@ -2792,6 +2819,38 @@ const icons = {
     ),
     keywords: ['device', 'earphones', 'dj'],
   },
+  'headphones-2': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M19 11C19 8.375 18 4 12 4C5.99995 4 5 8.375 5 11'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M3.58234 13.4674C3.26072 12.2671 3.97303 11.0334 5.17333 10.7118V10.7118C5.57343 10.6045 5.98469 10.842 6.09189 11.2421L7.77422 17.5206C7.88142 17.9207 7.64398 18.332 7.24389 18.4392V18.4392C6.04359 18.7608 4.80983 18.0485 4.48821 16.8482L3.58234 13.4674Z'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M20.3178 13.4674C20.6394 12.2671 19.9271 11.0334 18.7268 10.7118V10.7118C18.3267 10.6045 17.9155 10.842 17.8083 11.2421L16.1259 17.5206C16.0187 17.9207 16.2562 18.332 16.6563 18.4392V18.4392C17.8566 18.7608 19.0903 18.0485 19.4119 16.8482L20.3178 13.4674Z'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M6.15659 11.4836C6.01364 10.9501 6.33023 10.4018 6.86369 10.2588V10.2588C7.39716 10.1159 7.94549 10.4325 8.08844 10.9659L9.64135 16.7615C9.78429 17.2949 9.46771 17.8433 8.93424 17.9862V17.9862C8.40078 18.1292 7.85244 17.8126 7.7095 17.2791L6.15659 11.4836Z'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M17.7436 11.4836C17.8865 10.9501 17.5699 10.4018 17.0365 10.2588V10.2588C16.503 10.1159 15.9547 10.4325 15.8117 10.9659L14.2588 16.7615C14.1159 17.2949 14.4324 17.8433 14.9659 17.9862V17.9862C15.4994 18.1292 16.0477 17.8126 16.1906 17.2791L17.7436 11.4836Z'
+          stroke='black'
+          stroke-width='2'
+        />
+      </Svg>
+    ),
+    keywords: ['device', 'earphones', 'dj'],
+  },
   'laptop-2': {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
@@ -2880,6 +2939,146 @@ const icons = {
       </Svg>
     ),
     keywords: ['device', 'pointer', 'scroll'],
+  },
+  'mouse-2': {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M7.64856 9.89134C7.04732 6.28391 9.8292 3 13.4864 3V3C16.3795 3 18.8486 5.09163 19.3242 7.94539L19.4806 8.88345C19.8263 10.9576 20 13.0568 20 15.1595V15.1595C20 15.7169 19.9186 16.2712 19.7585 16.805L19.6646 17.1181C18.9734 19.4221 16.8527 21 14.4472 21H12.9255C10.7575 21 9 19.2425 9 17.0745V17.0745C9 16.6927 8.95821 16.3119 8.87536 15.9391L8 12L7.64856 9.89134Z'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M13.5 7L14.0176 8.93185'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M8 11.5L5.86491 15.7702C5.32456 16.8509 5.36007 18.1301 5.95954 19.1792V19.1792C6.60293 20.3051 7.80032 21 9.09712 21H13'
+          stroke='black'
+          stroke-width='2'
+        />
+      </Svg>
+    ),
+    keywords: ['device', 'pointer', 'scroll'],
+  },
+  keyboard: {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M12 9V9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M9 9V9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 9V9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 12V12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M6 15V15'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M9 12V12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 15V15'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M12 12V12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M15 12V12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 12V12'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M15 9V9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Path
+          d='M18 9V9'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+        <Rect
+          x='21'
+          y='6'
+          width='12'
+          height='18'
+          rx='2'
+          transform='rotate(90 21 6)'
+          stroke='black'
+          stroke-width='2'
+        />
+        <Path
+          d='M15 15L9 15'
+          stroke='black'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
+        />
+      </Svg>
+    ),
+    keywords: [
+      'type',
+      'typewriter',
+      'writer',
+      'notes',
+      'device',
+      'pointer',
+      'scroll',
+    ],
   },
   'movie-camera-off': {
     svg: (
@@ -2997,12 +3196,9 @@ const icons = {
           height='18'
           rx='2'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
-        <Path
-          d='M9 3H15V4C15 4.55228 14.5523 5 14 5H10C9.44772 5 9 4.55228 9 4V3Z'
-          fill='black'
-        />
+        <Rect x='9' y='5' width='6' height='2' rx='1' fill='black' />
       </Svg>
     ),
     keywords: ['device', 'iphone', 'android', 'ios', 'apple'],
@@ -3017,21 +3213,15 @@ const icons = {
           height='16'
           rx='2'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
         <Path
           d='M11 5V5C11 3.89543 11.8954 3 13 3H19C20.1046 3 21 3.89543 21 5V17C21 18.1046 20.1046 19 19 19H13.5'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
-        <Path
-          d='M5 5H11V6C11 6.55228 10.5523 7 10 7H6C5.44772 7 5 6.55228 5 6V5Z'
-          fill='black'
-        />
-        <Path
-          d='M13 3H19V4C19 4.55228 18.5523 5 18 5H14C13.4477 5 13 4.55228 13 4V3Z'
-          fill='black'
-        />
+        <Rect x='6' y='7' width='4' height='2' rx='1' fill='black' />
+        <Rect x='14' y='5' width='4' height='2' rx='1' fill='black' />
       </Svg>
     ),
     keywords: ['devices', 'iphone', 'android'],
@@ -7714,6 +7904,18 @@ const icons = {
     ),
     keywords: ['arcade', 'game', 'pacman'],
   },
+  egg: {
+    svg: (
+      <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
+        <Path
+          d='M19 14C19 18.9706 15.5 21 12 21C8.5 21 5 18.9706 5 14C5 9.02944 8 3 12 3C16 3 19 9.02944 19 14Z'
+          stroke='black'
+          stroke-width='2'
+        />
+      </Svg>
+    ),
+    keywords: ['easter', 'food', 'easteregg', 'chicken'],
+  },
   film: {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
@@ -9196,24 +9398,24 @@ const icons = {
     svg: (
       <Svg width='24' height='24' viewBox='0 0 24 24' fill='none'>
         <Path
-          d='M11 15.0183C6.50005 15.1841 3 16.4558 3 18C3 19.6569 7.02944 21 12 21C16.9706 21 21 19.6569 21 18C21 16.5723 18.008 15.3775 14 15.0743'
+          d='M14 15.0743C18.008 15.3775 21 16.5723 21 18C21 19.6569 16.9706 21 12 21C7.02944 21 3 19.6569 3 18C3 16.5723 5.99202 15.3775 10 15.0743'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
+          stroke-width='2'
+          stroke-linecap='round'
         />
         <Path
           d='M14 17L14 3'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Path
           d='M14 10L6 7L14 3V10Z'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Ellipse cx='14' cy='18' rx='3' ry='1' fill='black' />
       </Svg>
@@ -9441,42 +9643,46 @@ const icons = {
         <Path
           d='M11.5 8L10.5 13L14 15.5L16 20'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Path
           d='M10.5 13L8 16.5L4.5 14'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Path
           d='M11.5 8L7 9.5'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Path
           d='M11.5 8H14.5L17 6'
           stroke='black'
-          strokeWidth='2'
-          strokeLinecap='round'
-          strokeLinejoin='round'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'
         />
         <Circle
+          cx='1'
+          cy='1'
           r='1'
-          transform='matrix(-1 0 0 1 12 4)'
+          transform='matrix(-1 0 0 1 13 3)'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
         <Circle
-          r='0.5'
-          transform='matrix(-1 0 0 1 10.5 19.5)'
+          cx='1'
+          cy='1'
+          r='1'
+          transform='matrix(-1 0 0 1 12 18)'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
       </Svg>
     ),
