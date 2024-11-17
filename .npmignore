@@ -65,6 +65,9 @@ buck-out/
 # Library
 lib/
 
+# Formatting files
+.eslintrc.js
+
 # Example not needed in the package
 example/
 example-expo/
