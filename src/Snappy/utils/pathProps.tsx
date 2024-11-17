@@ -6,9 +6,9 @@ export default function pathProps(
   color: string,
   strokeWidth: NumberProp
 ) {
-  if (!React.isValidElement(pathElement)) return {};
+  if (!React.isValidElement<CommonPathProps>(pathElement)) return {};
 
-  const { props } = React.cloneElement(pathElement);
+  const { props } = pathElement;
 
   const [isStrokedPath, isFilledPath] = [!!props.stroke, !!props.fill];
 

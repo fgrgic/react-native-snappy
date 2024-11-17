@@ -1,5 +1,6 @@
 import React from 'react';
-import Svg, { Path, Circle, Rect, Ellipse } from 'react-native-svg';
+import Svg, { Circle, Ellipse, Path, Rect } from 'react-native-svg';
+
 import { IconConfig } from '../types';
 
 const icons = {
@@ -2997,12 +2998,9 @@ const icons = {
           height='18'
           rx='2'
           stroke='black'
-          strokeWidth='2'
+          stroke-width='2'
         />
-        <Path
-          d='M9 3H15V4C15 4.55228 14.5523 5 14 5H10C9.44772 5 9 4.55228 9 4V3Z'
-          fill='black'
-        />
+        <Rect x='9' y='5' width='6' height='2' rx='1' fill='black' />
       </Svg>
     ),
     keywords: ['device', 'iphone', 'android', 'ios', 'apple'],
